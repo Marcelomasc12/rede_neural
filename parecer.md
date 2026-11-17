@@ -1,6 +1,6 @@
 # Parecer técnico — Reconhecimento de dígitos
 
-**Equipe:** Marcelo Negrao, Maria Eduarda Aguiar, Maraiana Martins 
+**Equipe:** Marcelo Negrao, Maria Eduarda Aguiar, Mariana Martins 
 **Data:** 16/11/2026  
 **Versão do Python / scikit-learn:** Python 3.12.3 / scikit-learn 1.9.1  
 
