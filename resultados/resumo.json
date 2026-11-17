@@ -1,0 +1,83 @@
+{
+  "amostras": 1797,
+  "treino": 1347,
+  "teste": 450,
+  "melhor_no_teste_nesta_execucao": "MLP 64",
+  "resultados": [
+    {
+      "modelo": "MLP 16",
+      "arquitetura": [
+        16
+      ],
+      "acuracia": 0.9266666666666666,
+      "f1_macro": 0.9245890409229623,
+      "tempo_treinamento_seg": 0.1871,
+      "epocas": 85,
+      "aviso_convergencia": false
+    },
+    {
+      "modelo": "MLP 32",
+      "arquitetura": [
+        32
+      ],
+      "acuracia": 0.9066666666666666,
+      "f1_macro": 0.9052196603409952,
+      "tempo_treinamento_seg": 0.1027,
+      "epocas": 40,
+      "aviso_convergencia": false
+    },
+    {
+      "modelo": "MLP 64",
+      "arquitetura": [
+        64
+      ],
+      "acuracia": 0.9466666666666667,
+      "f1_macro": 0.9465311973994609,
+      "tempo_treinamento_seg": 0.1281,
+      "epocas": 40,
+      "aviso_convergencia": false
+    }
+  ],
+  "erros_exibidos": [
+    {
+      "indice_teste": 0,
+      "real": 1,
+      "previsto": 8
+    },
+    {
+      "indice_teste": 25,
+      "real": 8,
+      "previsto": 1
+    },
+    {
+      "indice_teste": 62,
+      "real": 0,
+      "previsto": 4
+    },
+    {
+      "indice_teste": 67,
+      "real": 1,
+      "previsto": 9
+    },
+    {
+      "indice_teste": 90,
+      "real": 5,
+      "previsto": 9
+    },
+    {
+      "indice_teste": 102,
+      "real": 1,
+      "previsto": 9
+    },
+    {
+      "indice_teste": 112,
+      "real": 8,
+      "previsto": 5
+    },
+    {
+      "indice_teste": 115,
+      "real": 2,
+      "previsto": 4
+    }
+  ]
+}
